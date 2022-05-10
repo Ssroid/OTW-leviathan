@@ -1,0 +1,19 @@
+
+들어가보니 
+ls 로 해도 아무반응이 없다.
+
+$ ls -al 
+하니 ./backup  파일이 눈에 보인다. 들어가본다.
+
+들어가보니 bookmarks.html이 있다.
+$ cat bookmarks.html    #봐보니 너무 어지럽다.
+파일을 실행해야 하는줄 알았지만 한번 여기안에 password가 있다고 가정을 하면 그안에 password라는 단어가 있을테니
+grep 명령어로 찾아본다
+
+$ cat bookmarks.html | grep password    # 해당 문장이 있는것을 확인 가능.
+
+the password for leviathan1 is rioGegei8m
+레비아탄1에 한번 입력해보자.
+
+성공이다. 
+키 값: rioGegei8m
