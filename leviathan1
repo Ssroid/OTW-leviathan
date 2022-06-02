@@ -21,3 +21,14 @@ $ pdf @main    # 해당 함수의 어셈블리어를 볼수 있다.
 # px @주소 : 해당 주소의 hex 값을 보여준다
 # ie : 바이너리의 진입점을 알수 있다. 
 # V : GUI모드로 진입한다. 
+
+call sym.imp.strcmp 가 있다 .봐보니 s1 과 s2 문자열을 비교하는것같다. 
+
+getchar 함수는 문자열의 첫번째 문자만 입력받는다.
+/bin/sh 이 머지? bash쉘을 사용한다는 뜻이다.
+
+s1에는 'sex'라는 문자가 들어가고 입력값 s2와 비교하여 정답이면은 /bin/sh을 실행한다.
+쉘이 실행돼니 
+$ cat /etc/leviathan_pass/leviathan2 의 키값을 알아보자.
+
+키값 ougahZi8Ta
