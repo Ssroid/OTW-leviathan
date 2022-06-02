@@ -1,0 +1,22 @@
+filename 이라는 파일이 보인다 .
+
+r2 filename 을 해본다
+$ aaaaa
+$ pdf @main
+을 하니 이전보다 훨씬긴 어셈블리어가 보인다.
+
+이중에 int access(const *path, int mode) 가 보인다. 이함수가 머지?
+access(path, mode) 함수는 파일이나 디렉토리의 파일이 존재하는지 읽기나, 쓰기, 실행이 가능한지 여부
+를 판단해준다. R_OK, W_OK, X_OK, F_OK 로 
+
+lea는 유호주소를 레지스터에 저장
+쉽게 mov와 약간 비슷하다고 생각해라. 
+snprintf함수는 머일까? -> 지정한 길이만큼 버퍼에 해당 문자열을 각 길이만큼 출력해준다.
+버퍼오버플로우가 생기지 않는다.
+
+geteuid : 사용자의 유호 ID를 반환한다.
+setreuid : 실제 혹은 유호 사용자 ID를 설정한다. ( 현재 ID -> 유효한 사용자 ID로 설정 
+system () : 
+
+$ ./printfile /etc/leviathan_pass   #를 하니 /bin/cat 실행이 되며 디렉토리라는 것을 알려준다.
+
